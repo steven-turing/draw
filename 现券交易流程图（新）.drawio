@@ -160,7 +160,7 @@
         <mxCell id="rE41ixS500IUOI0nH0Pi-69" value="卖券和质押冲突，存在违约风险" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-260" y="880" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rE41ixS500IUOI0nH0Pi-70" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;&lt;font&gt;基金经理通过天机智投平台发送交易意向，交易要素为结构化数据，确保要素的准确性和完整性&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=9;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="rE41ixS500IUOI0nH0Pi-70" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;&lt;font&gt;基金经理通过天机智投平台发送交易意向，交易要素为结构化数据，确保要素的准确性和完整性。&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=9;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-260" y="-290" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="rE41ixS500IUOI0nH0Pi-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;startFill=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rE41ixS500IUOI0nH0Pi-69" target="rE41ixS500IUOI0nH0Pi-27" edge="1">
