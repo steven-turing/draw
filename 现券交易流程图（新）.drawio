@@ -238,8 +238,8 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Zcv2Pc9pP1g-wqujLmrF-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;&lt;font&gt;基金经理在天机智投平台内下达发送交易意向的同时进行反向判断，内评校验。&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=9;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-260" y="-140" width="180" height="120" as="geometry" />
+        <mxCell id="Zcv2Pc9pP1g-wqujLmrF-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;&lt;font&gt;基金经理在天机智投平台内下达发送交易意向的同时进行反向判断，内评校验。替代EXCEL手工校验和线下沟通。&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=9;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-260" y="-140" width="180" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
