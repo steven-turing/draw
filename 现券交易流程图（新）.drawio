@@ -138,7 +138,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rE41ixS500IUOI0nH0Pi-52" value="&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;判断是否存在反向交易、内评是否&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(rgb(251, 251, 251), rgb(21, 21, 21)); color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;满足要求&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;textShadow=0;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="rE41ixS500IUOI0nH0Pi-52" value="&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;判断是否存在反向交易、内评是否&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(rgb(251, 251, 251), rgb(21, 21, 21)); color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;满足要求&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;textShadow=0;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="180" y="-130" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="rE41ixS500IUOI0nH0Pi-55" value="反馈基金经理" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -160,8 +160,8 @@
         <mxCell id="rE41ixS500IUOI0nH0Pi-69" value="卖券和质押冲突，存在违约风险" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-260" y="880" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rE41ixS500IUOI0nH0Pi-70" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;&lt;font&gt;基金经理通过i发送交易意向，交易要素为非结构化数据，容易存在缺失要素的情况导致沟通效率低下&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=9;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-300" y="-290" width="180" height="120" as="geometry" />
+        <mxCell id="rE41ixS500IUOI0nH0Pi-70" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;&lt;font&gt;基金经理通过天机智投平台发送交易意向，交易要素为结构化数据，确保要素的准确性和完整性&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=9;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-260" y="-290" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="rE41ixS500IUOI0nH0Pi-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;startFill=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rE41ixS500IUOI0nH0Pi-69" target="rE41ixS500IUOI0nH0Pi-27" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -230,6 +230,16 @@
         </mxCell>
         <mxCell id="rE41ixS500IUOI0nH0Pi-88" value="和对手方确认最终要素" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="160" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zcv2Pc9pP1g-wqujLmrF-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;startFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="-90.5" as="targetPoint" />
+            <mxPoint x="-70" y="-90.5" as="sourcePoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zcv2Pc9pP1g-wqujLmrF-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;&lt;font&gt;基金经理在天机智投平台内下达发送交易意向的同时进行反向判断，内评校验。&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=9;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-260" y="-140" width="180" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
