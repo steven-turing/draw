@@ -257,6 +257,23 @@
         <mxCell id="Zcv2Pc9pP1g-wqujLmrF-4" value="提交审批流程" style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="707" y="200" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="XhNha-WKmPvgFJ-NSs1q-0" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;&lt;font&gt;研究评级覆盖后实现证券池自动出入池调整。&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=9;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-350" y="180" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XhNha-WKmPvgFJ-NSs1q-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;startFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="229.5" as="targetPoint" />
+            <mxPoint x="-170" y="230" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-10" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XhNha-WKmPvgFJ-NSs1q-5" value="A.证券池自动调整&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;。&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="XhNha-WKmPvgFJ-NSs1q-4">
+          <mxGeometry x="-0.0729" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
