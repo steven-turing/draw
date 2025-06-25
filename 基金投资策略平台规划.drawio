@@ -30,8 +30,16 @@
         <mxCell id="XIK3aIZI7pEMBTjQCiah-6" value="实现要点" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-130" y="-1130" width="260" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="XIK3aIZI7pEMBTjQCiah-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XIK3aIZI7pEMBTjQCiah-8" target="XIK3aIZI7pEMBTjQCiah-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XIK3aIZI7pEMBTjQCiah-19" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;调用金证&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;API接口进行风控试算，&lt;br&gt;通过后下达正式指令&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XIK3aIZI7pEMBTjQCiah-18">
+          <mxGeometry x="0.0333" y="2" relative="1" as="geometry">
+            <mxPoint x="108" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="XIK3aIZI7pEMBTjQCiah-8" value="交易终端" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;glass=0;strokeWidth=1;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="340" y="-880" width="120" height="60" as="geometry" />
+          <mxGeometry x="340" y="-870" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XIK3aIZI7pEMBTjQCiah-10" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-80" y="-880" width="180" height="120" as="geometry" />
@@ -39,10 +47,59 @@
         <mxCell id="XIK3aIZI7pEMBTjQCiah-11" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;为每位基金经理配备交易终端，支持策略类型选择、交易时间段设定、仓位比例调整等核心操作功能。&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="-90" y="-900" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="XIK3aIZI7pEMBTjQCiah-12" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.022;entryY=0.633;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="XIK3aIZI7pEMBTjQCiah-11" target="XIK3aIZI7pEMBTjQCiah-8">
+        <mxCell id="XIK3aIZI7pEMBTjQCiah-12" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XIK3aIZI7pEMBTjQCiah-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="-810" as="sourcePoint" />
+            <mxPoint x="337" y="-840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XIK3aIZI7pEMBTjQCiah-15" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;需支持手动启动并在下达指令前进行授权确认；提供策略停止执行按钮 ；支持针对策略的业绩归因分析&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="-760" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="XIK3aIZI7pEMBTjQCiah-16" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XIK3aIZI7pEMBTjQCiah-15" target="XIK3aIZI7pEMBTjQCiah-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="300" y="-810" as="sourcePoint" />
             <mxPoint x="350" y="-860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XIK3aIZI7pEMBTjQCiah-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XIK3aIZI7pEMBTjQCiah-17" target="XIK3aIZI7pEMBTjQCiah-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XIK3aIZI7pEMBTjQCiah-25" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;设定自动分发规则，自动创建算法方案&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XIK3aIZI7pEMBTjQCiah-22">
+          <mxGeometry x="-0.0444" y="1" relative="1" as="geometry">
+            <mxPoint x="129" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XIK3aIZI7pEMBTjQCiah-17" value="发送正式指令至金证投资交易系统" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="340" y="-730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XIK3aIZI7pEMBTjQCiah-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XIK3aIZI7pEMBTjQCiah-20" target="XIK3aIZI7pEMBTjQCiah-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XIK3aIZI7pEMBTjQCiah-24" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;母单拆分成子单返回金证&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XIK3aIZI7pEMBTjQCiah-23">
+          <mxGeometry x="0.1333" y="-2" relative="1" as="geometry">
+            <mxPoint x="92" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XIK3aIZI7pEMBTjQCiah-20" value="算法交易执行" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="340" y="-610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XIK3aIZI7pEMBTjQCiah-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XIK3aIZI7pEMBTjQCiah-21" target="XIK3aIZI7pEMBTjQCiah-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XIK3aIZI7pEMBTjQCiah-21" value="金证执行委托" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="340" y="-490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XIK3aIZI7pEMBTjQCiah-26" value="期货公司柜台" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="340" y="-380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XIK3aIZI7pEMBTjQCiah-29" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;需支持针对期货交易的异常交易监控，目前仅支持股票和债券。——风险管理部&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="-520" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="XIK3aIZI7pEMBTjQCiah-31" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XIK3aIZI7pEMBTjQCiah-29" target="XIK3aIZI7pEMBTjQCiah-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="-650" as="sourcePoint" />
+            <mxPoint x="350" y="-700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
